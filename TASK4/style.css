@@ -1,0 +1,347 @@
+@media(max-width:599px)
+{
+    *
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: linear-gradient(60deg,blue,skyblue,aliceblue,blue);
+    position: fixed;
+    top:0%;
+    width:100% ;
+    z-index: 2;
+    padding: 10px;
+}
+nav
+{
+   background-color:black;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   display: none;
+   padding: 60px;
+   position: fixed;
+   top:0%;
+   width:30% ;
+   z-index: 1;
+   height: 100vh;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+.profile-img
+{
+    width: 300px;
+    height: 300px;
+}
+.profile-img img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(blue,green,skyblue,violet);
+    height: 600px;
+}
+.edu
+{
+    padding: 60px;
+}
+.edu h1
+{
+    text-align: center;
+}
+.education-detail
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.info
+{
+    width: 400px;
+    height: 200px;
+    border: 2px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+.skill-info
+{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 40px;
+}
+.skill-info h1
+{
+    text-align: center;
+}
+.main p:nth-child(1)
+{
+    width: 50%;
+    text-align: left;
+}
+.main p:nth-child(2)
+{
+    width: 50%;
+    text-align: right;
+}
+.main p
+{
+    display: inline-block;
+    padding: 20px;
+}
+.progreesbar
+{
+    width:90%;
+    height: 6px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 0px 20px;
+    position: relative;
+}
+.progressbar-fill
+{
+    background: linear-gradient(30deg,blue,green,skyblue);
+    height: 6px;
+    border-radius: 20px;
+    animation:animator ;
+
+}
+@keyframes animator 
+{
+    from
+    {
+        width: 0;
+    }
+    to
+    {
+        width: width;
+    }
+}
+.about-data table
+{
+    width: 400px;
+    height: 80px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.about-data table tr:nth-child(odd)
+{
+    background-color: #ccc;
+}
+.about-data table tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.about-data table td
+{
+    text-align: center;
+    padding: 10px;
+}
+
+}
+@media(min-width:600px)
+{
+    *
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menubar
+{
+    background-color: gray;
+    color: black;
+    display: none;
+}
+nav
+{
+    background-color: gray;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:hover
+{
+    background-color: white;
+    color: aqua;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.profile-img
+{
+    width: 400px;
+    height: 300px;
+}
+.profile-img img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(blue,green,skyblue,violet);
+    height: 600px;
+}
+.edu
+{
+    padding: 60px;
+}
+.edu h1
+{
+    text-align: center;
+}
+.education-detail
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info
+{
+    width: 400px;
+    height: 300px;
+    border: 2px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+.skill-info
+{
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 40px;
+}
+.skill-info h1
+{
+    text-align: center;
+}
+.main p:nth-child(1)
+{
+    width: 50%;
+    text-align: left;
+}
+.main p:nth-child(2)
+{
+    width: 50%;
+    text-align: right;
+}
+.main p
+{
+    display: inline-block;
+    padding: 20px;
+}
+.progreesbar
+{
+    width:90%;
+    height: 6px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 0px 20px;
+    position: relative;
+}
+.progressbar-fill
+{
+    background: linear-gradient(30deg,blue,green,skyblue);
+    height: 6px;
+    border-radius: 20px;
+    animation:animator ;
+
+}
+@keyframes animator 
+{
+    from
+    {
+        width: 0;
+    }
+    to
+    {
+        width: width;
+    }
+}
+.about-data table
+{
+    width: 800px;
+    height: 80px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.about-data table tr:nth-child(odd)
+{
+    background-color: #ccc;
+}
+.about-data table tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.about-data table td
+{
+    text-align: center;
+    padding: 10px;
+}
+
+}
